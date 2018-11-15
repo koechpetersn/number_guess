@@ -10,7 +10,7 @@ class TestNumGuess(unittest.TestCase):
       self.assertEqual(number_guess(10,10),text1,msg='A matching guess should return True!')
       self.assertEqual(number_guess(1,1),text1,msg='A matching guess should return True!')
       self.assertEqual(number_guess(5,5),text1,msg='A matching guess should return True!')
-      self.assertEqual(number_guess(2,5),text2,msg='A matching guess should return True!')
-      self.assertEqual(number_guess(8,5),text3,msg='A matching guess should return True!')
+      self.assertEqual(number_guess(2,5),text2)
+      self.assertEqual(number_guess(8,5),text3)
 if __name__ == "__main__":
     unittest.main(exit = False)
